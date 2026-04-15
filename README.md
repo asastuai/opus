@@ -22,6 +22,7 @@ It is written for the people who hear "AI-assisted" and think "slop." The eviden
 
 | Chapter | Title | What it covers |
 |---------|-------|----------------|
+| [Introduction](INTRODUCTION.md) | **One Session** | How forty-six days were lived as one continuous thread. |
 | [Chapter 1](CHAPTER-01.md) | **Before** | Who I am. What I brought. What was missing. |
 | [Chapter 2](CHAPTER-02.md) | **The Instrument** | How I found the tool. What I understood immediately. |
 | [Chapter 3](CHAPTER-03.md) | **The Dance** | How the collaboration actually works. What each side contributes. |
