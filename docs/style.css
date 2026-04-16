@@ -42,6 +42,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  position: relative;
 }
 
 /* ---- Navigation ---- */
@@ -488,6 +489,71 @@ nav .nav-links a.active {
   font-size: 0.8rem;
   color: var(--text-dim);
   text-align: right;
+}
+
+/* ---- Disclaimer bubble ---- */
+
+.disclaimer-bubble {
+  position: absolute;
+  left: -20px;
+  top: 8rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.bubble-icon {
+  width: 90px;
+  height: 65px;
+  transition: transform 0.2s;
+}
+
+.disclaimer-bubble:hover .bubble-icon {
+  transform: scale(1.08);
+}
+
+.bubble-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 340px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  padding: 1.2rem 1.4rem;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--text-dim);
+  line-height: 1.7;
+  box-shadow: 2px 2px 12px rgba(100, 80, 40, 0.08);
+}
+
+.bubble-content p {
+  margin: 0;
+}
+
+.disclaimer-bubble.expanded .bubble-content {
+  display: block;
+}
+
+.disclaimer-bubble.expanded .bubble-icon {
+  opacity: 0.5;
+}
+
+@media (max-width: 680px) {
+  .disclaimer-bubble {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 1rem;
+  }
+  .bubble-content {
+    position: relative;
+    left: 0;
+    top: 8px;
+    width: 100%;
+  }
 }
 
 /* ---- Footer ---- */

@@ -24,6 +24,20 @@
   <main>
     <div class="container">
 
+      <!-- Disclaimer bubble -->
+      <div class="disclaimer-bubble" onclick="this.classList.toggle('expanded')">
+        <svg class="bubble-icon" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 8 Q8 4 14 3 Q30 0 50 2 Q68 4 72 10 Q76 18 74 28 Q72 38 62 42 Q50 46 40 44 L30 54 L32 40 Q18 38 12 30 Q6 20 10 8 Z"
+                fill="none" stroke="var(--gold-dim)" stroke-width="1.5"
+                style="stroke-dasharray: 200; stroke-linecap: round; stroke-linejoin: round;"/>
+          <text x="28" y="22" font-family="'Cormorant Garamond', serif" font-size="9" font-style="italic" fill="var(--gold-dim)">a note</text>
+          <text x="22" y="34" font-family="'Cormorant Garamond', serif" font-size="9" font-style="italic" fill="var(--gold-dim)">for readers</text>
+        </svg>
+        <div class="bubble-content">
+          <p>Throughout this text, you will encounter phrases like <em>"what the human brought,"</em> <em>"the human's contribution,"</em> or <em>"the AI's role."</em> This language is intentional. It is not vanity or self-promotion&mdash;it is precision. This story is about a collaboration between two different kinds of intelligence, and understanding what each side contributed is the entire point. The distinction matters because the thesis depends on it. By Chapter 3, you will understand why.</p>
+        </div>
+      </div>
+
       <header class="chapter-header">
         <span class="ch-number">Introduction</span>
         <h1>One Session</h1>
