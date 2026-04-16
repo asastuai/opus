@@ -1,21 +1,21 @@
 /* ================================================
    OPUS — Style
-   Dark ground. Gold light. Let the words breathe.
+   Parchment ground. Gold ink. Let the words breathe.
    ================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --bg:         #0a0a0b;
-  --bg-raised:  #111113;
-  --bg-code:    #16161a;
-  --gold:       #c9a84c;
-  --gold-dim:   #8a7033;
-  --gold-glow:  rgba(201, 168, 76, 0.08);
-  --text:       #d4d4d8;
-  --text-dim:   #71717a;
-  --text-bright:#fafafa;
-  --border:     #27272a;
+  --bg:         #f0e6d3;
+  --bg-raised:  #e8dcc6;
+  --bg-code:    #e3d7c0;
+  --gold:       #6a4e04;
+  --gold-dim:   #7a5c10;
+  --gold-glow:  rgba(139, 105, 20, 0.08);
+  --text:       #110e08;
+  --text-dim:   #4a3f30;
+  --text-bright:#110e08;
+  --border:     rgba(100, 80, 40, 0.15);
   --serif:      'Cormorant Garamond', 'Georgia', serif;
   --mono:       'JetBrains Mono', 'Consolas', monospace;
 }
@@ -52,7 +52,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(10, 10, 11, 0.92);
+  background: rgba(240, 230, 211, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0.8rem 0;
