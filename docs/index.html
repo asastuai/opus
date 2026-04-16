@@ -46,6 +46,47 @@
     </div>
   </section>
 
+  <section class="implications-section" id="implications">
+    <div class="container">
+      <h2>What Intent-Aware Cryptography Opens</h2>
+      <p class="implications-intro">
+        The first cipher where semantic purpose is a cryptographic parameter.
+        Same key, same plaintext, different intent &mdash; different ciphertext. Wrong intent decrypts to garbage.
+        This is not a feature. It is a new dimension in cryptographic design.
+      </p>
+
+      <div class="implications-grid">
+        <div class="implication-card">
+          <h3>Purpose becomes physical</h3>
+          <p>Until now, the "purpose" of using data was a legal concept &mdash; something that existed in compliance documents, not in computational reality. Intent-aware encryption makes it physical. Purpose has mathematical consequences. It is the difference between a law and a law of nature.</p>
+        </div>
+
+        <div class="implication-card">
+          <h3>Compliance becomes automatic</h3>
+          <p>GDPR Article 5.1b requires that personal data be used only for its stated purpose. Today that is enforced by auditors. With intent-aware encryption, it is enforced by mathematics. Data encrypted with intent "medical treatment" cannot be decrypted with intent "marketing analysis" &mdash; not because policy forbids it, but because the cipher does not yield the correct plaintext.</p>
+        </div>
+
+        <div class="implication-card">
+          <h3>AI agents get purpose-bound access</h3>
+          <p>An autonomous agent receives data encrypted with intent "summarize for physician." If the agent operates with a different purpose, decryption produces garbage. The access control is in the cryptography itself &mdash; not in application logic that can be bypassed.</p>
+        </div>
+
+        <div class="implication-card">
+          <h3>A new dimension in cipher design</h3>
+          <p>Every cipher before this had two inputs: key and plaintext. Some add a nonce. Intent-aware cryptography adds a dimension that never existed: why. This is not an improvement to existing ciphers &mdash; it is a category that did not exist. The closest concept, Attribute-Based Encryption, controls <em>who</em> can decrypt. Intent controls <em>what for</em>.</p>
+        </div>
+      </div>
+
+      <div class="implications-cta">
+        <code>cargo add intent-cipher</code>
+        <span>&mdash;</span>
+        <a href="https://crates.io/crates/intent-cipher" target="_blank">crates.io</a>
+        <span>&mdash;</span>
+        <a href="https://github.com/asastuai/intent-cipher" target="_blank">source</a>
+      </div>
+    </div>
+  </section>
+
   <section class="chapters-section">
     <div class="container">
       <h2>Chapters</h2>

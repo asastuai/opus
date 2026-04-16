@@ -198,6 +198,101 @@ nav .nav-links a.active {
   50% { transform: translateY(10px); }
 }
 
+/* ---- Implications section ---- */
+
+.implications-section {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.implications-section h2 {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.implications-intro {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-dim);
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.8;
+}
+
+.implications-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.implication-card {
+  border: 1px solid var(--border);
+  padding: 1.8rem;
+  transition: background 0.2s;
+}
+
+.implication-card:hover {
+  background: var(--gold-glow);
+}
+
+.implication-card h3 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+}
+
+.implication-card p {
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--text-dim);
+  line-height: 1.75;
+}
+
+.implications-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--mono);
+  font-size: 0.9rem;
+}
+
+.implications-cta code {
+  background: var(--bg-code);
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  color: var(--gold);
+  font-size: 0.85rem;
+}
+
+.implications-cta a {
+  color: var(--gold-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.implications-cta a:hover {
+  color: var(--gold);
+}
+
+.implications-cta span {
+  color: var(--border);
+}
+
+@media (max-width: 680px) {
+  .implications-grid { grid-template-columns: 1fr; }
+  .implications-cta { flex-direction: column; gap: 0.5rem; }
+}
+
 /* ---- Chapter index (index page) ---- */
 
 .chapters-section {
