@@ -48,32 +48,32 @@
 
   <section class="implications-section" id="implications">
     <div class="container">
-      <h2>What Intent-Aware Cryptography Opens</h2>
+      <h2>About intent-cipher</h2>
       <p class="implications-intro">
-        The first cipher where semantic purpose is a cryptographic parameter.
-        Same key, same plaintext, different intent &mdash; different ciphertext. Wrong intent decrypts to garbage.
-        This is not a feature. It is a new dimension in cryptographic design.
+        A small cipher in Rust. Takes a key, an intent string, and a plaintext &mdash;
+        mixes the intent into the key schedule, produces a keystream, XORs with the plaintext.
+        A research artifact and a gesture, not a proposal for production cryptography.
       </p>
 
       <div class="implications-grid">
         <div class="implication-card">
-          <h3>Purpose becomes physical</h3>
-          <p>Until now, the "purpose" of using data was a legal concept &mdash; something that existed in compliance documents, not in computational reality. Intent-aware encryption makes it physical. Purpose has mathematical consequences. It is the difference between a law and a law of nature.</p>
+          <h3>What it does</h3>
+          <p>Binds an arbitrary byte string &mdash; an "intent" &mdash; into the cipher's key derivation. Two different intents produce two different keystreams, even with the same key and plaintext. A matching intent decrypts; a mismatched intent produces different bytes. The cipher is deterministic, self-inverse (XOR), and zero-dependency.</p>
         </div>
 
         <div class="implication-card">
-          <h3>Compliance becomes automatic</h3>
-          <p>GDPR Article 5.1b requires that personal data be used only for its stated purpose. Today that is enforced by auditors. With intent-aware encryption, it is enforced by mathematics. Data encrypted with intent "medical treatment" cannot be decrypted with intent "marketing analysis" &mdash; not because policy forbids it, but because the cipher does not yield the correct plaintext.</p>
+          <h3>What it isn't</h3>
+          <p>The cipher does not parse or understand the intent &mdash; it hashes the bytes into the key derivation. Functionally, intent behaves like a nonce or a salt under a different name. There is no semantic layer, no policy enforcement, no mathematical guarantee that purpose is preserved. It is a UX framing, not a cryptographic category.</p>
         </div>
 
         <div class="implication-card">
-          <h3>AI agents get purpose-bound access</h3>
-          <p>An autonomous agent receives data encrypted with intent "summarize for physician." If the agent operates with a different purpose, decryption produces garbage. The access control is in the cryptography itself &mdash; not in application logic that can be bypassed.</p>
+          <h3>The rigorous cousins</h3>
+          <p>Constructions that formally bind purpose or policy to encryption already exist and are substantially stronger: Attribute-Based Encryption (Sahai &amp; Waters, 2005), Functional Encryption (Boneh, Sahai &amp; Waters, 2011), Predicate Encryption. If you need purpose-bound cryptography for a real system, start there &mdash; not here.</p>
         </div>
 
         <div class="implication-card">
-          <h3>A new dimension in cipher design</h3>
-          <p>Every cipher before this had two inputs: key and plaintext. Some add a nonce. Intent-aware cryptography adds a dimension that never existed: why. This is not an improvement to existing ciphers &mdash; it is a category that did not exist. The closest concept, Attribute-Based Encryption, controls <em>who</em> can decrypt. Intent controls <em>what for</em>.</p>
+          <h3>Why the hermetic framing</h3>
+          <p>The seven internal state components of the cipher &mdash; essence, veil, spectrum, poles, rhythms, causal, seeds &mdash; name themselves after the principles in the Kybalion. The framing is a lens, not a proof. It is how this artifact was built and read, not what it claims to be formally. The full exploration lives in <a href="https://github.com/asastuai/kybalion" target="_blank">Kybalion</a>.</p>
         </div>
       </div>
 
