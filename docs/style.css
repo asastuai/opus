@@ -494,66 +494,66 @@ nav .nav-links a.active {
 /* ---- Disclaimer bubble ---- */
 
 .disclaimer-bubble {
-  position: absolute;
-  left: -20px;
-  top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
   cursor: pointer;
-  z-index: 10;
+  margin: 2rem 0;
+  padding: 1rem 1.4rem;
+  border: 1.5px dashed var(--gold-dim);
+  border-radius: 12px;
   transition: all 0.3s ease;
+  background: transparent;
+}
+
+.disclaimer-bubble:hover {
+  background: var(--gold-glow);
+  border-color: var(--gold);
 }
 
 .bubble-icon {
-  width: 90px;
-  height: 65px;
-  transition: transform 0.2s;
+  width: 70px;
+  height: 50px;
+  flex-shrink: 0;
 }
 
-.disclaimer-bubble:hover .bubble-icon {
-  transform: scale(1.08);
+.bubble-label {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--gold-dim);
+  transition: color 0.2s;
+}
+
+.disclaimer-bubble:hover .bubble-label {
+  color: var(--gold);
 }
 
 .bubble-content {
   display: none;
-  position: absolute;
-  top: 0;
-  left: 100px;
-  width: 340px;
-  background: var(--bg-raised);
-  border: 1px solid var(--border);
-  padding: 1.2rem 1.4rem;
+  margin-top: 1rem;
   font-family: var(--serif);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-style: italic;
   color: var(--text-dim);
-  line-height: 1.7;
-  box-shadow: 2px 2px 12px rgba(100, 80, 40, 0.08);
+  line-height: 1.8;
 }
 
 .bubble-content p {
   margin: 0;
 }
 
+.disclaimer-bubble.expanded {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .disclaimer-bubble.expanded .bubble-content {
   display: block;
 }
 
-.disclaimer-bubble.expanded .bubble-icon {
-  opacity: 0.5;
-}
-
-@media (max-width: 680px) {
-  .disclaimer-bubble {
-    position: relative;
-    left: 0;
-    top: 0;
-    margin-bottom: 1rem;
-  }
-  .bubble-content {
-    position: relative;
-    left: 0;
-    top: 8px;
-    width: 100%;
-  }
+.disclaimer-bubble.expanded .bubble-label {
+  color: var(--gold);
 }
 
 /* ---- Footer ---- */
