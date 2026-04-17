@@ -468,11 +468,13 @@ nav .nav-links a.active {
 
 .chapter-body {
   padding-bottom: 6rem;
+  font-size: 1.35rem;
+  line-height: 1.75;
 }
 
 .chapter-body h2 {
   font-family: var(--serif);
-  font-size: 1.6rem;
+  font-size: 2.16rem;
   font-weight: 700;
   color: var(--text-bright);
   margin-top: 3.5rem;
@@ -481,7 +483,7 @@ nav .nav-links a.active {
 
 .chapter-body h3 {
   font-family: var(--serif);
-  font-size: 1.15rem;
+  font-size: 1.55rem;
   font-weight: 600;
   color: var(--gold);
   margin-top: 2.5rem;
@@ -520,7 +522,7 @@ nav .nav-links a.active {
 
 .chapter-body code {
   font-family: var(--mono);
-  font-size: 0.8rem;
+  font-size: 1.08rem;
   background: var(--bg-code);
   padding: 0.15rem 0.4rem;
   border-radius: 3px;
@@ -539,7 +541,7 @@ nav .nav-links a.active {
 .chapter-body pre code {
   background: none;
   padding: 0;
-  font-size: 0.78rem;
+  font-size: 1.05rem;
   line-height: 1.6;
   color: var(--text);
 }
