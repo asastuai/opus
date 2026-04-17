@@ -1,6 +1,6 @@
 # Opus
 
-**A documented account of human-AI collaboration, from zero programming experience to a cryptographic framework that proves ancient philosophy describes modern computation. In forty-six days.**
+**A documented account of human-AI collaboration, from zero programming experience to a cryptographic framework that reads ancient philosophy and modern computation in the same vocabulary. In forty-six days.**
 
 This is not a tutorial. Not a manifesto. Not a self-help story about learning to code.
 
@@ -10,7 +10,7 @@ This is evidence.
 
 ## What is this?
 
-Between February 27 and April 14, 2026, I built nine software projects in five programming languages — JavaScript, TypeScript, Solidity, Python, and Rust — with no prior programming experience. The projects include a perpetual futures DEX with 494 tests, an AI agent wallet SDK published to npm, a DeFi intelligence platform, a generative music engine, and a cryptographic framework that formalizes the seven hermetic principles of the Kybalion as computational primitives.
+Between February 27 and April 14, 2026, I built seven software projects in five programming languages — JavaScript, TypeScript, Solidity, Python, and Rust — with no prior programming experience. The projects include a perpetual futures DEX with 494 tests, an AI agent wallet SDK published to npm, a DeFi intelligence platform, a generative music engine, and a cryptographic framework that formalizes the seven hermetic principles of the Kybalion as computational primitives.
 
 I did this in collaboration with Claude, Anthropic's AI model. This document explains how.
 
@@ -26,7 +26,7 @@ It is written for the people who hear "AI-assisted" and think "slop." The eviden
 | [Chapter 1](CHAPTER-01.md) | **Before** | Who I am. What I brought. What was missing. |
 | [Chapter 2](CHAPTER-02.md) | **The Instrument** | How I found the tool. What I understood immediately. |
 | [Chapter 3](CHAPTER-03.md) | **The Dance** | How the collaboration actually works. What each side contributes. |
-| [Chapter 4](CHAPTER-04.md) | **The Road** | Nine projects, chronologically. Dates, commits, evidence. |
+| [Chapter 4](CHAPTER-04.md) | **The Road** | Seven projects, chronologically. Dates, commits, evidence. |
 | [Chapter 5](CHAPTER-05.md) | **The Night** | April 13, 2026. Hermetic Computing. The Truth found. |
 | [Chapter 6](CHAPTER-06.md) | **The Thesis** | Why this isn't slop. What genuine human-AI creation looks like. |
 

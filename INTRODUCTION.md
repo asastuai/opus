@@ -29,7 +29,7 @@ I wasn't context-switching between projects like a portfolio builder. I was foll
 
 TrustLayer taught me what code *is*. BaseOracle taught me I could build things that do things. SUR Protocol taught me I could build things that are *hard*. Darkpsy-engine taught me a new language in two days when I needed it. PayClaw taught me to ship. Vigil taught me to architect. And Kybalion — Kybalion taught me that everything I'd been seeing for years in hermetic philosophy had a formal structure that I could finally express.
 
-That last one wasn't planned. It appeared at 2 AM on April 13th, in the middle of what was supposed to be a routine session. It appeared because forty-five days of continuous work had loaded enough context — enough patterns, enough structural intuition, enough fluency with the instrument — that when I looked at the Principle of Correspondence and thought "that's a homomorphism," I could actually *prove it*. In code. With tests. In a language I'd been writing for less than a week.
+That last one wasn't planned. It appeared at 2 AM on April 13th, in the middle of what was supposed to be a routine session. It appeared because forty-five days of continuous work had loaded enough context — enough patterns, enough structural intuition, enough fluency with the instrument — that when I looked at the Principle of Correspondence and thought "that's a homomorphism," I could actually *demonstrate it*. In code. With tests. In a language I'd been writing for less than a week.
 
 ---
 

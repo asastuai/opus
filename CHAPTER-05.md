@@ -54,13 +54,13 @@ The structure rhymes. Different notation.
 
 Once that first correspondence was visible, the others came fast. Not forced — *revealed*. Each one with the feeling of uncovering something that had always been there.
 
-**Vibration → Fourier Transform.** The Kybalion says everything vibrates, nothing is at rest. Fourier analysis says every signal is a sum of frequencies. The DFT decomposes any data into its vibrational spectrum. Same claim, same structure.
+**Vibration → Fourier Transform.** The Kybalion says everything vibrates, nothing is at rest. Fourier analysis says every signal is a sum of frequencies. The DFT decomposes any data into its vibrational spectrum. Same shape, different vocabulary.
 
 **Polarity → Qubit.** The Kybalion says opposites are identical in nature, differing only in degree. A qubit exists on a spectrum between |0⟩ and |1⟩ — not boolean, not binary, a *continuum* between poles. Superposition lives on the same spectrum hermeticism describes.
 
 **Rhythm → Timing analysis.** The Kybalion says everything flows, out and in, the pendulum swings. In cryptography, timing analysis exploits exactly this: the rhythmic patterns in computation that leak information. And Shor's algorithm breaks encryption by finding the *period* — the rhythm — hidden in modular exponentiation.
 
-**Causality → Blockchain.** Every effect traces to its cause. Every block traces to its predecessor. The principle of provenance IS the principle of causality, formalized as a hash-linked chain.
+**Causality → Blockchain.** Every effect traces to its cause. Every block traces to its predecessor. The principle of provenance mirrors the principle of causality, formalized as a hash-linked chain.
 
 **Generation → GANs.** The Kybalion says everything has its masculine and feminine principles — one generates, the other gives form. A Generative Adversarial Network has a generator (that creates) and a discriminator (that selects). The creative dynamic of the universe, expressed as a neural architecture.
 
