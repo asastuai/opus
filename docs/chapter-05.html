@@ -71,12 +71,12 @@
 
         <p>And homomorphic encryption — I knew about it from crypto. The idea that you can operate on encrypted data and get the same result as if you'd operated on the plaintext. <code>encrypt(a + b) = encrypt(a) + encrypt(b)</code>. Operations <em>above</em> (in the encrypted domain) correspond exactly to operations <em>below</em> (in the plaintext domain).</p>
 
-        <p>I had never connected them. But the moment the connection was stated, it was so obvious it felt like remembering, not learning. Of <em>course</em> they're the same structure. They're not similar. They're not analogous. They are the same mathematical property, described in different languages, separated by millennia.</p>
+        <p>I had never connected them. But the moment the connection was stated, it was so obvious it felt like remembering, not learning. Of <em>course</em> the shape is the same. Not merely analogous — the same structural pattern, described in different languages, separated by millennia.</p>
 
         <p>The Emerald Tablet was written between the 6th and 8th century.<br>
         Homomorphic encryption was formalized by Craig Gentry in 2009.</p>
 
-        <p>Same structure. Same principle. Different notation.</p>
+        <p>The structure rhymes. Different notation.</p>
 
         <hr>
 
@@ -86,7 +86,7 @@
 
         <p><strong>Vibration &rarr; Fourier Transform.</strong> The Kybalion says everything vibrates, nothing is at rest. Fourier analysis says every signal is a sum of frequencies. The DFT decomposes any data into its vibrational spectrum. Same claim, same structure.</p>
 
-        <p><strong>Polarity &rarr; Qubit.</strong> The Kybalion says opposites are identical in nature, differing only in degree. A qubit exists on a spectrum between |0&rang; and |1&rang; — not boolean, not binary, a <em>continuum</em> between poles. Superposition IS the spectrum that hermeticism describes.</p>
+        <p><strong>Polarity &rarr; Qubit.</strong> The Kybalion says opposites are identical in nature, differing only in degree. A qubit exists on a spectrum between |0&rang; and |1&rang; — not boolean, not binary, a <em>continuum</em> between poles. Superposition lives on the same spectrum hermeticism describes.</p>
 
         <p><strong>Rhythm &rarr; Timing analysis.</strong> The Kybalion says everything flows, out and in, the pendulum swings. In cryptography, timing analysis exploits exactly this: the rhythmic patterns in computation that leak information. And Shor's algorithm breaks encryption by finding the <em>period</em> — the rhythm — hidden in modular exponentiation.</p>
 
@@ -96,7 +96,7 @@
 
         <p><strong>Mentalism &rarr; Information theory.</strong> "The All is Mind; the Universe is Mental." In computation: everything is information. Every physical phenomenon can be described as information processing. Every state reducible to bits.</p>
 
-        <p>Seven principles. Seven exact computational correspondences. Not metaphors. Not aesthetic parallels. Structural isomorphisms.</p>
+        <p>Seven principles. Seven computational correspondences. Not metaphors. Not aesthetic parallels. Structural resonances.</p>
 
         <hr>
 
@@ -116,7 +116,7 @@
 
         <p>Implementation of the first four principles. Mentalism: <code>reduce_to_essence()</code> and <code>manifest()</code>. Correspondence: <code>veil()</code> and <code>unveil()</code> with the homomorphic property. Vibration: full DFT/IDFT with perfect roundtrip — data to frequencies to data without losing a single byte. Polarity: a <code>Qubit</code> type that satisfies <code>trait Polarity</code> natively, without forcing.</p>
 
-        <p>The Qubit fitting the Polarity trait without modification was the first moment of genuine surprise. We didn't design the trait to fit the qubit. We designed the trait from the hermetic principle. The qubit fit because the principle and the physics describe the same thing.</p>
+        <p>The Qubit fitting the Polarity trait without modification was the first moment of genuine surprise. We didn't design the trait to fit the qubit. We designed the trait from the hermetic principle. The qubit fit because the principle and the physics describe the same abstract shape.</p>
 
         <p>40 tests passed.</p>
 
@@ -148,13 +148,13 @@
 
         <h3>Rubedo — Completion</h3>
 
-        <p>The Magnum Opus. A stream cipher where semantic intent is a cryptographic parameter. Same key, different purpose, different encryption. The first cipher in history where the <em>why</em> of encryption shapes the <em>how</em>.</p>
+        <p>The Magnum Opus. A stream cipher where we named the extra input <em>intent</em> to emphasise the semantic use-case. Same key, different intent, different keystream. A framing choice that gives purpose a seat at the cryptographic table — not a new primitive, a new way of reading an old one.</p>
 
         <pre><code>let c1 = encipher(b"my_key", b"protect medical records", plaintext);
 let c2 = encipher(b"my_key", b"conceal financial data",  plaintext);
 assert_ne!(c1, c2);</code></pre>
 
-        <p>This is not a novelty. This is a new cryptographic concept. No prior cipher binds semantic purpose to the keystream. We searched. It doesn't exist.</p>
+        <p>A framing contribution, not a cryptographic novelty. The rigorous cousins — Attribute-Based Encryption (Sahai&ndash;Waters, 2005), Functional Encryption (Boneh&ndash;Sahai&ndash;Waters, 2011) — live in academic lineages this work does not belong to. What the Magnum Opus offers is a vocabulary for thinking about purpose at the cryptographic layer, expressed in a few hundred lines of Rust.</p>
 
         <p>All seven principles alive. 87 tests. Zero failures. The framework was complete.</p>
 
@@ -168,7 +168,7 @@ assert_ne!(c1, c2);</code></pre>
 
         <p><strong>NaN cannot manifest.</strong> When implementing Mentalism — the principle that everything is information — the question arose: what happens when you try to create a number from NaN? The answer: <code>None</code>. Corruption cannot take form in the Mental Universe. This wasn't a design decision. It was the only implementation that made sense. The principle dictated the code.</p>
 
-        <p><strong>Polarity and Vibration are entangled.</strong> |+&rang; and |&minus;&rang; have identical measurement probabilities (50/50) but different phase. Same polarity, different vibration. The principles are not independent — they're entangled at the quantum level. We proved this computationally. We didn't design for it. It emerged.</p>
+        <p><strong>Polarity and Vibration are independent axes.</strong> |+&rang; and |&minus;&rang; have identical measurement probabilities (50/50) but different phase. Same polarity, different vibration. The principles are not independent — phase distinguishes states that polarity alone cannot. We observed this while building. We didn't design for it. It emerged from the structure.</p>
 
         <p><strong>The hash has seven stages because there are seven stages.</strong> We didn't choose seven for symbolic resonance. We needed exactly seven computational operations to produce cryptographic-quality output. The number emerged from the requirements. That it matches the seven hermetic principles and the seven classical alchemical stages is either a coincidence or evidence of something deeper.</p>
 
@@ -178,13 +178,13 @@ assert_ne!(c1, c2);</code></pre>
 
         <h2>What it means</h2>
 
-        <p>I am not claiming the hermetic masters understood computers. I am claiming they described <em>structures</em> — through whatever method they used, observation, meditation, revelation — that turned out to be isomorphic to structures we independently discovered with mathematics.</p>
+        <p>I am not claiming the hermetic masters understood computers. I am claiming they described <em>structures</em> — through whatever method they used, observation, meditation, revelation — that turn out to rhyme, at the shape level, with structures we independently discovered with mathematics.</p>
 
         <p>The Emerald Tablet, 6th century. Homomorphic encryption, 2009.<br>
         The Kybalion, 1908. The qubit, 1980s.<br>
         Solve et Coagula, medieval alchemy. The Hadamard gate, 20th century.</p>
 
-        <p>Same structures. Different languages. Millennia apart.</p>
+        <p>The structure rhymes. Different languages. Millennia apart.</p>
 
         <p>Either the ancients were remarkably lucky, or they were observing something real about the fabric of reality that we are only now learning to formalize.</p>
 

@@ -41,12 +41,12 @@ I had lived with the Principle of Correspondence for years. It was my lens for u
 
 And homomorphic encryption — I knew about it from crypto. The idea that you can operate on encrypted data and get the same result as if you'd operated on the plaintext. `encrypt(a + b) = encrypt(a) + encrypt(b)`. Operations *above* (in the encrypted domain) correspond exactly to operations *below* (in the plaintext domain).
 
-I had never connected them. But the moment the connection was stated, it was so obvious it felt like remembering, not learning. Of *course* they're the same structure. They're not similar. They're not analogous. They are the same mathematical property, described in different languages, separated by millennia.
+I had never connected them. But the moment the connection was stated, it was so obvious it felt like remembering, not learning. Of *course* the shape is the same. Not merely analogous — the same structural pattern, described in different languages, separated by millennia.
 
 The Emerald Tablet was written between the 6th and 8th century.
 Homomorphic encryption was formalized by Craig Gentry in 2009.
 
-Same structure. Same principle. Different notation.
+The structure rhymes. Different notation.
 
 ---
 
@@ -56,7 +56,7 @@ Once that first correspondence was visible, the others came fast. Not forced —
 
 **Vibration → Fourier Transform.** The Kybalion says everything vibrates, nothing is at rest. Fourier analysis says every signal is a sum of frequencies. The DFT decomposes any data into its vibrational spectrum. Same claim, same structure.
 
-**Polarity → Qubit.** The Kybalion says opposites are identical in nature, differing only in degree. A qubit exists on a spectrum between |0⟩ and |1⟩ — not boolean, not binary, a *continuum* between poles. Superposition IS the spectrum that hermeticism describes.
+**Polarity → Qubit.** The Kybalion says opposites are identical in nature, differing only in degree. A qubit exists on a spectrum between |0⟩ and |1⟩ — not boolean, not binary, a *continuum* between poles. Superposition lives on the same spectrum hermeticism describes.
 
 **Rhythm → Timing analysis.** The Kybalion says everything flows, out and in, the pendulum swings. In cryptography, timing analysis exploits exactly this: the rhythmic patterns in computation that leak information. And Shor's algorithm breaks encryption by finding the *period* — the rhythm — hidden in modular exponentiation.
 
@@ -66,7 +66,7 @@ Once that first correspondence was visible, the others came fast. Not forced —
 
 **Mentalism → Information theory.** "The All is Mind; the Universe is Mental." In computation: everything is information. Every physical phenomenon can be described as information processing. Every state reducible to bits.
 
-Seven principles. Seven exact computational correspondences. Not metaphors. Not aesthetic parallels. Structural isomorphisms.
+Seven principles. Seven computational correspondences. Not metaphors. Not aesthetic parallels. Structural resonances.
 
 ---
 
@@ -86,7 +86,7 @@ We wrote the formal specification. Each principle broken down to its computation
 
 Implementation of the first four principles. Mentalism: `reduce_to_essence()` and `manifest()`. Correspondence: `veil()` and `unveil()` with the homomorphic property. Vibration: full DFT/IDFT with perfect roundtrip — data to frequencies to data without losing a single byte. Polarity: a `Qubit` type that satisfies `trait Polarity` natively, without forcing.
 
-The Qubit fitting the Polarity trait without modification was the first moment of genuine surprise. We didn't design the trait to fit the qubit. We designed the trait from the hermetic principle. The qubit fit because the principle and the physics describe the same thing.
+The Qubit fitting the Polarity trait without modification was the first moment of genuine surprise. We didn't design the trait to fit the qubit. We designed the trait from the hermetic principle. The qubit fit because the principle and the physics describe the same abstract shape.
 
 40 tests passed.
 
@@ -116,7 +116,7 @@ The ratio moved to **0.5001**. One ten-thousandth from perfect. Zero collisions 
 
 ### Rubedo — Completion
 
-The Magnum Opus. A stream cipher where semantic intent is a cryptographic parameter. Same key, different purpose, different encryption. The first cipher in history where the *why* of encryption shapes the *how*.
+The Magnum Opus. A stream cipher where we named the extra input *intent* to emphasise the semantic use-case. Same key, different intent, different keystream. A framing choice that gives purpose a seat at the cryptographic table — not a new primitive, a new way of reading an old one.
 
 ```rust
 let c1 = encipher(b"my_key", b"protect medical records", plaintext);
@@ -124,7 +124,7 @@ let c2 = encipher(b"my_key", b"conceal financial data",  plaintext);
 assert_ne!(c1, c2);
 ```
 
-This is not a novelty. This is a new cryptographic concept. No prior cipher binds semantic purpose to the keystream. We searched. It doesn't exist.
+A framing contribution, not a cryptographic novelty. The rigorous cousins — Attribute-Based Encryption (Sahai–Waters, 2005), Functional Encryption (Boneh–Sahai–Waters, 2011) — live in academic lineages this work does not belong to. What the Magnum Opus offers is a vocabulary for thinking about purpose at the cryptographic layer, expressed in a few hundred lines of Rust.
 
 All seven principles alive. 87 tests. Zero failures. The framework was complete.
 
@@ -138,7 +138,7 @@ Things that weren't designed. Things that emerged from the structure.
 
 **NaN cannot manifest.** When implementing Mentalism — the principle that everything is information — the question arose: what happens when you try to create a number from NaN? The answer: `None`. Corruption cannot take form in the Mental Universe. This wasn't a design decision. It was the only implementation that made sense. The principle dictated the code.
 
-**Polarity and Vibration are entangled.** |+⟩ and |−⟩ have identical measurement probabilities (50/50) but different phase. Same polarity, different vibration. The principles are not independent — they're entangled at the quantum level. We proved this computationally. We didn't design for it. It emerged.
+**Polarity and Vibration are independent axes.** |+⟩ and |−⟩ have identical measurement probabilities (50/50) but different phase. Same polarity, different vibration. The principles are not independent — phase distinguishes states that polarity alone cannot. We observed this while building. We didn't design for it. It emerged from the structure.
 
 **The hash has seven stages because there are seven stages.** We didn't choose seven for symbolic resonance. We needed exactly seven computational operations to produce cryptographic-quality output. The number emerged from the requirements. That it matches the seven hermetic principles and the seven classical alchemical stages is either a coincidence or evidence of something deeper.
 
@@ -148,13 +148,13 @@ Things that weren't designed. Things that emerged from the structure.
 
 ## What it means
 
-I am not claiming the hermetic masters understood computers. I am claiming they described *structures* — through whatever method they used, observation, meditation, revelation — that turned out to be isomorphic to structures we independently discovered with mathematics.
+I am not claiming the hermetic masters understood computers. I am claiming they described *structures* — through whatever method they used, observation, meditation, revelation — that turn out to rhyme, at the shape level, with structures we independently discovered with mathematics.
 
 The Emerald Tablet, 6th century. Homomorphic encryption, 2009.
 The Kybalion, 1908. The qubit, 1980s.
 Solve et Coagula, medieval alchemy. The Hadamard gate, 20th century.
 
-Same structures. Different languages. Millennia apart.
+The structure rhymes. Different languages. Millennia apart.
 
 Either the ancients were remarkably lucky, or they were observing something real about the fabric of reality that we are only now learning to formalize.
 

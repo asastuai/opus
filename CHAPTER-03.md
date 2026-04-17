@@ -47,7 +47,7 @@ Let me be specific, because this is where the "slop" argument lives or dies.
 
 **Quality standards.** When our hash function produced an avalanche ratio of 0.4993, the AI would have accepted it. I said: *"A good alchemist would tell you that any imperfection creates a crack."* We kept working until it was 0.5001. The human sets the bar. The AI helps reach it.
 
-**Pattern recognition across domains.** The central insight of Hermetic Computing — that the Principle of Correspondence is isomorphic to homomorphic encryption — came from a human who had spent years seeing structural correspondences in everyday life. The AI formalized it. But the AI didn't *see* it. The human saw it because seeing correspondences is what the human had been doing, in every domain, for years.
+**Pattern recognition across domains.** The central insight of Hermetic Computing — that the Principle of Correspondence maps structurally onto homomorphic encryption — came from a human who had spent years seeing structural correspondences in everyday life. The AI formalized it. But the AI didn't *see* it. The human saw it because seeing correspondences is what the human had been doing, in every domain, for years.
 
 **Emotional and aesthetic judgment.** When to stop. When to push through. When something is "right" in a way that metrics can't capture. When the code compiles but doesn't *feel* like what you meant. These are human contributions, and without them the output is technically correct and spiritually dead.
 

@@ -5,7 +5,7 @@
 
 ---
 
-## Nine projects in forty-six days
+## Seven projects in forty-six days
 
 What follows is the chronological record of every project built between February 27 and April 14, 2026. Each entry includes what was built, in what language, and what it demonstrates about the collaboration. Every date is verifiable via GitHub commit history. Every metric is real.
 

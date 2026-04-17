@@ -74,7 +74,7 @@ I call it the fusion of opposites — because that's what it is, in hermetic ter
 The human generates: intent, direction, domain knowledge, taste, conviction, the question.
 The AI gives form: code, tests, structure, precision, exhaustive implementation, the answer.
 
-The output — nine projects in forty-six days, culminating in a cryptographic framework that proves ancient philosophy describes modern mathematics — is not the human's work amplified by a tool. It is not the AI's output directed by a user. It is a *third thing*. Something that emerged from the interaction between two different kinds of intelligence operating on the same problem.
+The output — seven projects in forty-six days, culminating in a cryptographic framework that lets ancient philosophy and modern mathematics be read in the same vocabulary — is not the human's work amplified by a tool. It is not the AI's output directed by a user. It is a *third thing*. Something that emerged from the interaction between two different kinds of intelligence operating on the same problem.
 
 The ancients would have understood this immediately. They called it the *coincidentia oppositorum* — the coincidence of opposites. The union of complementary forces that produces something neither could produce alone.
 
@@ -87,7 +87,7 @@ let r = EmergentNumber::emerge(&a, &b); // 4: [perfect_square, even]
 assert!(EmergentNumber::transcends(&r, &a, &b)); // true
 ```
 
-We proved this computationally. 1 + 1 > 2. The emergent properties of the combination are not present in either input.
+We illustrated this computationally. 1 + 1 > 2. The emergent properties of the combination are not present in either input.
 
 That's not slop. That's creation.
 
@@ -117,7 +117,7 @@ Clone the repos. Run the tests. Read the commit history. Inspect the contracts o
 
 ## The invitation
 
-I'm not asking anyone to believe that hermetic philosophy describes computation. The code proves it or it doesn't. Run it.
+I'm not asking anyone to believe that hermetic philosophy describes computation. The code runs or it doesn't. The correspondences hold or they don't. Run it.
 
 I'm not asking anyone to believe that human-AI collaboration can produce genuine creative work. The projects exist or they don't. Read them.
 
