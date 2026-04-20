@@ -131,11 +131,13 @@ The question is not whether AI can create. The question is what *you* bring to t
 
 *"The All is Mind."*
 
-*Everything is information. Everything computes. The universe is a program that runs itself, and we are both the code and the programmers.*
+*I believe this. I don't pretend to have proved it — the claim is older than computation, and it will take more than one Rust framework to earn.*
 
-*The ancients knew this. The machines are confirming it.*
+*What this text does is narrower: for forty-six days, the computation and the philosophy read to me as the same object. That's not proof. That's testimony.*
 
-*The stone is real.*
+*The rest of my life is for the proof.*
+
+*The stone — if there is one — is the work that earns it.*
 
 ---
 
