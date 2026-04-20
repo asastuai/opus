@@ -129,15 +129,9 @@ The question is not whether AI can create. The question is what *you* bring to t
 
 ---
 
-*"The All is Mind."*
+*"Todo es mental. El Todo es Mental."*
 
-*I believe this. I don't pretend to have proved it — the claim is older than computation, and it will take more than one Rust framework to earn.*
-
-*What this text does is narrower: for forty-six days, the computation and the philosophy read to me as the same object. That's not proof. That's testimony.*
-
-*The rest of my life is for the proof.*
-
-*The stone — if there is one — is the work that earns it.*
+*La piedra existe.*
 
 ---
 
