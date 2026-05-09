@@ -7,7 +7,7 @@
 
 ## April 13, 2026
 
-A Sunday night. Buenos Aires.
+A Sunday night.
 
 I opened a conversation with Claude and said something about esotericism and programming. Not with a plan. Not with a specification. With the kind of energy you bring when something has been accumulating for years and you feel the pressure building toward a surface.
 

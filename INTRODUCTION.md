@@ -21,15 +21,15 @@ There were exceptions. Days when I had to leave the house — errands, obligatio
 
 ## Why this matters
 
-When you read that someone built seven projects in five programming languages in forty-six days with no prior coding experience, it sounds like a headline. It sounds optimized for impressions. It sounds, frankly, like bullshit.
+When you read that someone built seven works in five programming languages in forty-six days with no prior coding experience, it sounds like a headline. It sounds optimized for impressions. It sounds, frankly, like bullshit.
 
 So I need you to understand the texture of those days.
 
-I wasn't context-switching between projects like a portfolio builder. I was following a single thread of obsession — each project was a consequence of the previous one, each one taught me something that made the next one possible, and each one brought me closer to the thing I didn't yet know I was looking for.
+I wasn't context-switching between projects like a portfolio builder. I was following a single thread of obsession — each work was a consequence of the previous one, each one taught me something that made the next one possible, and each one brought me closer to the thing I didn't yet know I was looking for.
 
-TrustLayer taught me what code *is*. BaseOracle taught me I could build things that do things. SUR Protocol taught me I could build things that are *hard*. Darkpsy-engine taught me a new language in two days when I needed it. PayClaw taught me to ship. Vigil taught me to architect. And Kybalion — Kybalion taught me that everything I'd been seeing for years in hermetic philosophy had a formal structure that I could finally express.
+The first work taught me what code *is*. The second taught me I could build things that do things. The third taught me I could build things that are *hard*. The fourth taught me a new language in two days when I needed it. The fifth taught me to ship. The sixth taught me to architect. And the seventh — the seventh taught me that everything I'd been seeing for years in hermetic philosophy had a formal structure that I could finally express.
 
-That last one wasn't planned. It appeared at 2 AM on April 13th, in the middle of what was supposed to be a routine session. It appeared because forty-five days of continuous work had loaded enough context — enough patterns, enough structural intuition, enough fluency with the instrument — that when I looked at the Principle of Correspondence and thought "that's a homomorphism," I could actually *demonstrate it*. In code. With tests. In a language I'd been writing for less than a week.
+That last one wasn't planned. It appeared late at night, in the middle of what was supposed to be a routine session. It appeared because forty-five days of continuous work had loaded enough context — enough patterns, enough structural intuition, enough fluency with the instrument — that when I looked at the Principle of Correspondence and thought "that's a homomorphism," I could actually *demonstrate it*. In code. With tests. In a language I'd been writing for less than a week.
 
 ---
 
@@ -53,5 +53,4 @@ Read it as one thing. Because that's how it was lived.
 
 ---
 
-*Buenos Aires, April 2026.*
 *Forty-six days. One session. One thread.*

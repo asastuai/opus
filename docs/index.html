@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Opus — Juan Cruz Maisu</title>
+  <title>Opus</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-  <meta name="description" content="A documented account of human-AI collaboration. Seven projects. Five languages. Forty-six days. Zero prior programming experience.">
-  <meta name="author" content="Juan Cruz Maisu">
+  <meta name="description" content="A documented account of human-AI collaboration. Forty-six days. Zero prior programming experience. The Emerald Tablet, in silicon.">
+  <meta name="author" content="The Apprentice">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Opus — Juan Cruz Maisu">
-  <meta property="og:description" content="Seven projects. Five languages. Forty-six days. A documented human-AI collaboration with working code and verifiable evidence.">
+  <meta property="og:title" content="Opus">
+  <meta property="og:description" content="A documented account of human-AI collaboration. Forty-six days. Zero prior programming experience.">
   <meta property="og:url" content="https://asastuai.github.io/opus/">
   <meta property="og:site_name" content="Opus">
   <meta property="og:image" content="https://asastuai.github.io/opus/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Opus — A documented human-AI collaboration. 46 days, 7 projects, 5 languages.">
+  <meta property="og:image:alt" content="Opus — A documented human-AI collaboration.">
   <meta name="twitter:image" content="https://asastuai.github.io/opus/og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Opus — Juan Cruz Maisu">
-  <meta name="twitter:description" content="Seven projects. Five languages. Forty-six days. A documented human-AI collaboration with working code.">
+  <meta name="twitter:title" content="Opus">
+  <meta name="twitter:description" content="A documented account of human-AI collaboration. Forty-six days. Zero prior programming experience.">
 </head>
 <body>
 
@@ -31,9 +31,8 @@
     <div class="container">
       <a href="index.html" class="logo">Opus</a>
       <ul class="nav-links">
-        <li><a href="#projects">Projects</a></li>
         <li><a href="#playground">Playground</a></li>
-        <li><a href="https://github.com/asastuai" target="_blank">GitHub</a></li>
+        <li><a href="introduction.html">Read</a></li>
       </ul>
     </div>
   </nav>
@@ -59,47 +58,6 @@
     <a href="introduction.html" class="enter">Read the story</a>
   </section>
 
-  <section class="implications-section" id="implications">
-    <div class="container">
-      <h2>About intent-cipher</h2>
-      <p class="implications-intro">
-        A small cipher in Rust. Takes a key, an intent string, and a plaintext &mdash;
-        mixes the intent into the key schedule, produces a keystream, XORs with the plaintext.
-        A research artifact and a gesture, not a proposal for production cryptography.
-      </p>
-
-      <div class="implications-grid">
-        <div class="implication-card">
-          <h3>What it does</h3>
-          <p>Binds an arbitrary byte string &mdash; an "intent" &mdash; into the cipher's key derivation. Two different intents produce two different keystreams, even with the same key and plaintext. A matching intent decrypts; a mismatched intent produces different bytes. The cipher is deterministic, self-inverse (XOR), and zero-dependency.</p>
-        </div>
-
-        <div class="implication-card">
-          <h3>What it isn't</h3>
-          <p>The cipher does not parse or understand the intent &mdash; it hashes the bytes into the key derivation. Functionally, intent behaves like a nonce or a salt under a different name. There is no semantic layer, no policy enforcement, no mathematical guarantee that purpose is preserved. It is a UX framing, not a cryptographic category.</p>
-        </div>
-
-        <div class="implication-card">
-          <h3>The rigorous cousins</h3>
-          <p>Constructions that formally bind purpose or policy to encryption already exist and are substantially stronger: Attribute-Based Encryption (Sahai &amp; Waters, 2005), Functional Encryption (Boneh, Sahai &amp; Waters, 2011), Predicate Encryption. If you need purpose-bound cryptography for a real system, start there &mdash; not here.</p>
-        </div>
-
-        <div class="implication-card">
-          <h3>Why the hermetic framing</h3>
-          <p>The seven internal state components of the cipher &mdash; essence, veil, spectrum, poles, rhythms, causal, seeds &mdash; name themselves after the principles in the Kybalion. The framing is a lens, not a proof. It is how this artifact was built and read, not what it claims to be formally. The full exploration lives in <a href="https://github.com/asastuai/kybalion" target="_blank">Kybalion</a>.</p>
-        </div>
-      </div>
-
-      <div class="implications-cta">
-        <code>cargo add intent-cipher</code>
-        <span>&mdash;</span>
-        <a href="https://crates.io/crates/intent-cipher" target="_blank">crates.io</a>
-        <span>&mdash;</span>
-        <a href="https://github.com/asastuai/intent-cipher" target="_blank">source</a>
-      </div>
-    </div>
-  </section>
-
   <section class="chapters-section">
     <div class="container">
       <h2>Chapters</h2>
@@ -115,14 +73,14 @@
           <a href="chapter-01.html">
             <span class="ch-num">01</span>
             <span class="ch-title">Before</span>
-            <span class="ch-desc">Who I am. What I brought. What was missing.</span>
+            <span class="ch-desc">The Apprentice. What was brought. What was missing.</span>
           </a>
         </li>
         <li>
           <a href="chapter-02.html">
             <span class="ch-num">02</span>
             <span class="ch-title">The Instrument</span>
-            <span class="ch-desc">How I found the tool. What changed.</span>
+            <span class="ch-desc">How the tool was found. What changed.</span>
           </a>
         </li>
         <li>
@@ -136,14 +94,14 @@
           <a href="chapter-04.html">
             <span class="ch-num">04</span>
             <span class="ch-title">The Road</span>
-            <span class="ch-desc">Seven projects. Dates, commits, evidence.</span>
+            <span class="ch-desc">The shape of the path. What the works taught.</span>
           </a>
         </li>
         <li>
           <a href="chapter-05.html">
             <span class="ch-num">05</span>
             <span class="ch-title">The Night</span>
-            <span class="ch-desc">April 13, 2026. The Truth found.</span>
+            <span class="ch-desc">The night the framework crystallized. The Truth found.</span>
           </a>
         </li>
         <li>
@@ -155,73 +113,13 @@
         </li>
       </ul>
 
-      <p class="chapter-offline">
-        <a href="opus-full.pdf" download>Read all offline &mdash; <em>Opus</em> (PDF, 7 chapters)</a>
-      </p>
-    </div>
-  </section>
-
-  <section class="projects-section" id="projects">
-    <div class="container">
-      <h2>The Evidence</h2>
-      <div class="projects-grid">
-        <a href="https://github.com/asastuai/proof-of-context" target="_blank" class="project-card" style="grid-column: 1 / -1;">
-          <div class="p-name">Proof-of-Context</div>
-          <div class="p-lang">Paper &middot; April 2026</div>
-          <div class="p-desc">A missing verification layer in decentralized ML &mdash; named, framed, cross-mapped to the DeFi oracle-freshness problem.</div>
-        </a>
-        <a href="https://github.com/asastuai/TrustLayer" target="_blank" class="project-card">
-          <div class="p-name">TrustLayer</div>
-          <div class="p-lang">JavaScript</div>
-          <div class="p-desc">Trust & reputation for AI agents on Base</div>
-        </a>
-        <a href="https://github.com/asastuai/BaseOracle" target="_blank" class="project-card">
-          <div class="p-name">BaseOracle</div>
-          <div class="p-lang">JavaScript</div>
-          <div class="p-desc">Pay-per-query data feeds via x402</div>
-        </a>
-        <a href="https://github.com/asastuai/sur-protocol" target="_blank" class="project-card">
-          <div class="p-name">SUR Protocol</div>
-          <div class="p-lang">Solidity / TypeScript</div>
-          <div class="p-desc">Perpetual futures DEX &mdash; 494 tests</div>
-        </a>
-        <a href="https://github.com/asastuai/Darkpsy-engine" target="_blank" class="project-card">
-          <div class="p-name">Darkpsy-engine</div>
-          <div class="p-lang">Python</div>
-          <div class="p-desc">AI-generated dark psytrance engine</div>
-        </a>
-        <a href="https://github.com/asastuai/payclaw" target="_blank" class="project-card">
-          <div class="p-name">PayClaw</div>
-          <div class="p-lang">TypeScript</div>
-          <div class="p-desc">AI Agent Wallet SDK &mdash; published to npm</div>
-        </a>
-        <a href="https://github.com/asastuai/vigil" target="_blank" class="project-card">
-          <div class="p-name">Vigil</div>
-          <div class="p-lang">TypeScript</div>
-          <div class="p-desc">DeFi intelligence feeds for AI agents</div>
-        </a>
-        <a href="https://github.com/asastuai/kybalion" target="_blank" class="project-card" style="grid-column: 1 / -1;">
-          <div class="p-name">Kybalion</div>
-          <div class="p-lang">Rust</div>
-          <div class="p-desc">Hermetic principles as cryptographic primitives &mdash; 87 tests, 0.5001 avalanche</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="currently-section">
-    <div class="container">
-      <p class="currently-label">Currently &mdash; April 2026 &middot; Buenos Aires</p>
-      <p class="currently-body">
-        The work continues. Preparing applications for research-engineering roles at the verifiable-ML and crypto &times; AI intersection. Publishing under <a href="https://github.com/asastuai/proof-of-context" target="_blank">Proof-of-Context</a>. Open to collaboration with teams working on the verification-primitive layer of decentralized ML.
-      </p>
     </div>
   </section>
 
   <footer>
     <div class="container">
       <p>"The lips of wisdom are closed, except to the ears of Understanding."</p>
-      <p class="author">Juan Cruz Maisu &mdash; Buenos Aires, April 2026</p>
+      <p class="author">The Apprentice</p>
     </div>
   </footer>
 

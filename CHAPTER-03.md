@@ -43,7 +43,7 @@ Let me be specific, because this is where the "slop" argument lives or dies.
 
 **Direction.** The AI cannot decide what matters. It has no conviction. It will build a to-do app with the same enthusiasm it builds a cryptographic framework. The human decides what to build, what to ignore, what to prioritize, and what to kill. These decisions are not trivial — they require taste, experience, and an understanding of the problem domain that no amount of training data can replace.
 
-**Domain knowledge.** In my case: eight years of crypto, DeFi protocol mechanics, hermetic philosophy, systems thinking. The AI knows *about* these things. I know *from* these things. The difference is the difference between reading about swimming and having been in the water.
+**Domain knowledge.** In my case: years of crypto, DeFi protocol mechanics, hermetic philosophy, systems thinking. The AI knows *about* these things. I know *from* these things. The difference is the difference between reading about swimming and having been in the water.
 
 **Quality standards.** When our hash function produced an avalanche ratio of 0.4993, the AI would have accepted it. I said: *"A good alchemist would tell you that any imperfection creates a crack."* We kept working until it was 0.5001. The human sets the bar. The AI helps reach it.
 
@@ -98,4 +98,4 @@ That's not slop. That's a level of communicative efficiency that most human-to-h
 ---
 
 *The dance had a rhythm. The rhythm produced work.*
-*Seven projects in forty-six days.*
+*Seven works in forty-six days.*

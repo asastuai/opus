@@ -5,13 +5,13 @@
 
 ---
 
-## The person before the code
+## The Apprentice before the code
 
-I'm Juan. Buenos Aires. 33 years old as of April 2026.
+I am the Apprentice.
 
 I have no computer science degree. No bootcamp certificate. No formal programming training of any kind. My education was high school, then brief stints in law school and philosophy & literature at university — both abandoned. Not because I couldn't handle the material. Because the institutions felt inert. Politicized spaces where knowledge was administered, not discovered. I was looking for something alive, and what I found was a machine for producing credentials.
 
-So I left, and I learned on my own. That's been the pattern for my entire adult life.
+So I left, and I learned on my own. That has been the pattern for my entire adult life.
 
 ---
 
@@ -19,13 +19,13 @@ So I left, and I learned on my own. That's been the pattern for my entire adult 
 
 When people hear "no programming background," they hear "blank slate." That's wrong. I had no programming *language*, but I had spent years building a dense, interconnected web of knowledge across fields that don't usually talk to each other.
 
-### Eight years in crypto
+### Years in cryptocurrency
 
-I entered the cryptocurrency space around 2018 with zero knowledge. No finance background, no technical background. I started from raw curiosity — reading everything, using CryptoCompare, posting in forums, trying to understand what money actually *was* when you stripped away the institutions.
+I entered the cryptocurrency space at the start of the DeFi era, with zero knowledge. No finance background, no technical background. I started from raw curiosity — reading everything, posting in forums, trying to understand what money actually *was* when you stripped away the institutions.
 
 Then DeFi arrived, and it was chaos. Beautiful, terrifying chaos. Automated market makers, liquidity pools, yield farming, flash loans, governance tokens. I lived inside that chaos for years. Not as a passive observer — as someone trying to understand the *mechanics*. How do these systems actually work? What are the invariants? Where do they break?
 
-Eight years of that leaves marks. You develop an intuition for systems — how incentives flow, where attack surfaces hide, what happens when you compose protocols that weren't designed to be composed. You learn to read whitepapers. You learn to think in state machines. You learn that the difference between a working system and a catastrophe is often a single unchecked assumption.
+Years of that leave marks. You develop an intuition for systems — how incentives flow, where attack surfaces hide, what happens when you compose protocols that weren't designed to be composed. You learn to read whitepapers. You learn to think in state machines. You learn that the difference between a working system and a catastrophe is often a single unchecked assumption.
 
 I didn't know what a `for` loop was. But I understood reentrancy attacks.
 
@@ -61,5 +61,5 @@ Then the instrument appeared.
 
 ---
 
-*Buenos Aires, February 2026.*
+*February 2026.*
 *The instrument appeared, and everything changed.*

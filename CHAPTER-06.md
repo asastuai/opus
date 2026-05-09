@@ -37,21 +37,21 @@ The question is never "was AI involved?" The question is "what did the human bri
 
 ---
 
-## What the human brought
+## What the Apprentice brought
 
-Let me be concrete about what I brought to this collaboration, because the evidence exists and it's verifiable.
+Let me be concrete about what the Apprentice brought to this collaboration, because the evidence exists and it is verifiable in the work itself.
 
-**I brought eight years of crypto knowledge.** When I built SUR Protocol — a perpetual futures DEX with 11 contracts and 494 tests — I wasn't learning what a perp exchange is. I was finally expressing what I already understood about how perp exchanges work. Every architectural decision in that codebase reflects real knowledge about margin systems, liquidation engines, oracle integrations, and funding rate mechanisms. The AI wrote the Solidity. I designed the system.
+**Years of crypto knowledge.** When I built the third work — a complex protocol for decentralized exchange — I wasn't learning what such a protocol is. I was finally expressing what I already understood about how these systems work. Every architectural decision in that codebase reflects real knowledge about margin systems, liquidation engines, oracle integrations, and funding rate mechanisms. The AI wrote the code. I designed the system.
 
-**I brought hermetic philosophy as a lived practice.** When "As above, so below" mapped to homomorphic encryption, that wasn't a clever connection I made by googling both topics. It was the inevitable result of someone who sees correspondences in every domain finally encountering a domain (computation) where correspondences can be formally verified. The insight didn't come from the AI. The insight came from twenty years of seeing the world through hermetic principles.
+**Hermetic philosophy as a lived practice.** When "As above, so below" mapped to homomorphic encryption, that wasn't a clever connection I made by googling both topics. It was the inevitable result of someone who sees correspondences in every domain finally encountering a domain (computation) where correspondences can be formally verified. The insight didn't come from the AI. The insight came from years of seeing the world through hermetic principles.
 
-**I brought quality standards.** An avalanche ratio of 0.4998 is excellent by any standard. I rejected it. *"A good alchemist would tell you that any imperfection creates a crack."* The AI didn't have that standard. I imposed it. We pushed until we reached 0.5001. The difference between 0.4998 and 0.5001 is the difference between good enough and *right*. That difference is human.
+**Quality standards.** An avalanche ratio of 0.4998 is excellent by any standard. I rejected it. *"A good alchemist would tell you that any imperfection creates a crack."* The AI didn't have that standard. I imposed it. We pushed until we reached 0.5001. The difference between 0.4998 and 0.5001 is the difference between good enough and *right*. That difference is human.
 
-**I brought strategic thinking.** When PayClaw overlapped with Coinbase's AgentKit, I pivoted. Not because the AI told me to — the AI would have happily continued building PayClaw forever. I recognized that the market was solving the wallet problem and redirected toward intelligence (Vigil), where my domain expertise gave me a genuine edge. That's product strategy, not code generation.
+**Strategic thinking.** When the wallet layer I was building turned out to overlap with what the market was already solving, I pivoted. Not because the AI told me to — the AI would have happily continued building forever. I recognized that the wallet problem was being commoditized and redirected toward the intelligence layer, where domain expertise gave a genuine edge. That's product strategy, not code generation.
 
-**I brought artistic vision.** Darkpsy-engine exists because I know what dark psytrance should sound like. No prompt can replace that knowledge. The AI can generate audio. It cannot know whether the audio sounds like a dark psytrance track or like a reasonable approximation that misses the point.
+**Artistic vision.** One of the works was a music engine, built around a niche genre. It exists because I know what that sound should be. No prompt can replace that knowledge. The AI can generate audio. It cannot know whether the audio is the genre or a reasonable approximation that misses the point.
 
-**I brought the question.** Hermetic Computing exists because I asked "do the structural models that esoteric traditions use to describe reality have computational equivalents?" That question required a specific human — one who lived in both worlds, the esoteric and the computational, long enough to suspect a connection. The AI formalized the answer. But the answer was to my question.
+**The question.** Hermetic Computing exists because I asked "do the structural models that esoteric traditions use to describe reality have computational equivalents?" That question required a specific kind of mind — one that lived in both worlds, the esoteric and the computational, long enough to suspect a connection. The AI formalized the answer. But the answer was to my question.
 
 ---
 
@@ -74,7 +74,7 @@ I call it the fusion of opposites — because that's what it is, in hermetic ter
 The human generates: intent, direction, domain knowledge, taste, conviction, the question.
 The AI gives form: code, tests, structure, precision, exhaustive implementation, the answer.
 
-The output — seven projects in forty-six days, culminating in a cryptographic framework that lets ancient philosophy and modern mathematics be read in the same vocabulary — is not the human's work amplified by a tool. It is not the AI's output directed by a user. It is a *third thing*. Something that emerged from the interaction between two different kinds of intelligence operating on the same problem.
+The output — seven works in forty-six days, culminating in a cryptographic framework that lets ancient philosophy and modern mathematics be read in the same vocabulary — is not the human's work amplified by a tool. It is not the AI's output directed by a user. It is a *third thing*. Something that emerged from the interaction between two different kinds of intelligence operating on the same problem.
 
 The ancients would have understood this immediately. They called it the *coincidentia oppositorum* — the coincidence of opposites. The union of complementary forces that produces something neither could produce alone.
 
@@ -97,21 +97,18 @@ That's not slop. That's creation.
 
 This document is not a manifesto. It is a report.
 
-Every claim in this text can be verified:
+The shape of the work can be measured:
 
-- **7 repositories** on [github.com/asastuai](https://github.com/asastuai), each with commit history showing dates, changes, and progression
-- **581+ tests** across projects, all passing
-- **5 programming languages** used by someone with no prior programming experience
-- **494 Solidity tests** in SUR Protocol, verifiable by running `forge test`
-- **87 Rust tests** in Kybalion, verifiable by running `cargo test`
-- **Avalanche ratio of 0.5001**, verifiable by running `cargo run --bin purify`
-- **0 hash collisions** in 1,000 inputs
-- **npm packages published**: payclaw-ai@0.1.0, payclaw-shared@0.0.1
-- **Smart contracts deployed and verified** on Base Sepolia
-- **Strategic pivots documented** in commit history (PayClaw → Vigil)
-- **Timeline**: February 27 to April 14, 2026 — 46 days
+- **Seven works**, each a complete artifact, with commit histories that show dates, changes, and progression
+- **581+ tests** across the works, all passing
+- **Five programming languages** used by someone with no prior programming experience
+- **Avalanche ratio of 0.5001** in the seventh work's hash function
+- **Zero hash collisions** across the test suite
+- **Smart contracts deployed and verified** on a public testnet
+- **Strategic pivots documented** in the commit history of the works themselves
+- **Timeline**: forty-six days, end to end
 
-Clone the repos. Run the tests. Read the commit history. Inspect the contracts on-chain. The evidence is not anecdotal. It's cryptographic, computational, and timestamped.
+The evidence is not anecdotal. It is cryptographic, computational, and timestamped. The artifacts are real, even when their names are not given here.
 
 ---
 
@@ -119,9 +116,9 @@ Clone the repos. Run the tests. Read the commit history. Inspect the contracts o
 
 I'm not asking anyone to believe that hermetic philosophy describes computation. The code runs or it doesn't. The correspondences hold or they don't. Run it.
 
-I'm not asking anyone to believe that human-AI collaboration can produce genuine creative work. The projects exist or they don't. Read them.
+I'm not asking anyone to believe that human-AI collaboration can produce genuine creative work. The works exist or they don't.
 
-I'm asking something simpler: look at the evidence before reaching for the verdict. If you see seven projects in five languages built in forty-six days by someone with no programming background, and your first instinct is "slop" — ask yourself what assumptions you're protecting.
+I'm asking something simpler: look at the evidence before reaching for the verdict. If you see seven works in five languages built in forty-six days by someone with no programming background, and your first instinct is "slop" — ask yourself what assumptions you're protecting.
 
 The instrument is here. It's real. It amplifies whatever the operator brings.
 
@@ -135,5 +132,4 @@ The question is not whether AI can create. The question is what *you* bring to t
 
 ---
 
-**Juan Cruz Maisu**
-**Buenos Aires, April 2026**
+**The Apprentice**

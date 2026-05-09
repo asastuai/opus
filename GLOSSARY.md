@@ -162,7 +162,7 @@ Adding deliberate noise until the original signal is unrecoverable. Foundation o
 Encryption where decryption rights depend on policy attributes. The Magnum Opus goes further: intent is bound to the keystream itself, not just to access policy.
 
 **EIP-712**
-Ethereum standard for signing structured data. Used in SUR Protocol for type-safe transaction signatures.
+Ethereum standard for signing structured data. Used in the third work for type-safe transaction signatures.
 
 **FNV Hash**
 Fowler-Noll-Vo hash. Simple, fast hash used in the project for CausalId generation. Uses prime 0x100000001b3 as multiplier.
@@ -276,7 +276,7 @@ Tokens locked in a smart contract that traders can swap against. Liquidity provi
 A loan that must be borrowed and repaid within a single transaction. If not repaid, the entire transaction reverts as if it never happened. Enables arbitrage without capital.
 
 **Reentrancy Attack**
-Attack where a malicious contract calls back into the vulnerable contract before the first call finishes, exploiting inconsistent state. The DAO hack (2016) used this. In the project: Juan understood this before knowing what a for loop was.
+Attack where a malicious contract calls back into the vulnerable contract before the first call finishes, exploiting inconsistent state. The DAO hack (2016) used this. In the project: the Apprentice understood this before knowing what a for loop was.
 
 **Perpetual Futures**
 Derivatives contracts with no expiration date. Traders can go long or short with leverage. Price kept close to spot via funding rate mechanism.
@@ -340,16 +340,16 @@ Rust's package manager and build system. `cargo test` runs tests, `cargo build` 
 Foundry's testing framework for Solidity smart contracts. `forge test` runs the test suite.
 
 **npm**
-Node.js package registry. `npm publish` makes a package available to the world. PayClaw was published as `payclaw-ai@0.1.0`.
+Node.js package registry. `npm publish` makes a package available to the world. The fifth work was published to npm.
 
 **SDK (Software Development Kit)**
-A package providing tools for building on top of a platform. PayClaw is an SDK for giving AI agents wallets.
+A package providing tools for building on top of a platform. The fifth work was an SDK for giving AI agents wallets.
 
 **MCP (Model Context Protocol)**
-Standard for connecting tools and data sources to AI models. Vigil provides 8 MCP tools for agent integration.
+Standard for connecting tools and data sources to AI models. The sixth work exposes MCP tools for agent integration.
 
 **Monorepo**
-A single repository containing multiple related packages/projects. Used in PayClaw and Vigil.
+A single repository containing multiple related packages/projects. Used in the fifth and sixth works.
 
 **WASM (WebAssembly)**
 Binary instruction format that runs in web browsers at near-native speed. The Kybalion playground compiles Rust to WASM for in-browser execution.
@@ -371,7 +371,7 @@ When a result possesses qualities absent from all inputs. Not just "different" �
 When a model confidently produces false information. Relevant to the collaboration: the human acts as the verification layer, catching when the AI generates plausible but incorrect code.
 
 **Token Limit**
-Maximum conversation length before the AI loses context. In the project: the reason Juan had to re-establish context hundreds of times. He was the persistent memory the AI lacked.
+Maximum conversation length before the AI loses context. In the project: the reason the Apprentice had to re-establish context hundreds of times. He was the persistent memory the AI lacked.
 
 ---
 
@@ -431,14 +431,14 @@ Hermetic concept: the master dampens the pendulum's swing. Computationally: cons
 ## Audio & Music
 
 **Dark Psytrance**
-Subgenre of psychedelic trance music. Dark, industrial, mechanical, hypnotic. 145-155 BPM typically. The Darkpsy-engine generates this programmatically.
+Subgenre of psychedelic trance music. Dark, industrial, mechanical, hypnotic. 145-155 BPM typically. The fourth work generates this programmatically.
 
 **Sound Synthesis**
-Creating sound from mathematical components (oscillators, filters, effects) rather than recording it. The Darkpsy-engine uses Python for this.
+Creating sound from mathematical components (oscillators, filters, effects) rather than recording it. The fourth work uses Python for this.
 
 **Surge XT**
-Open-source software synthesizer integrated into the Darkpsy-engine for sound generation.
+Open-source software synthesizer integrated into the fourth work for sound generation.
 
 ---
 
-*This glossary is part of [Opus](https://github.com/asastuai/opus) — the documented account of a 46-day human-AI collaboration.*
+*This glossary is part of Opus — the documented account of a 46-day human-AI collaboration.*
